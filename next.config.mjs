@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 import { fileURLToPath } from "url";
 import path from "path";
-import { Elsie } from "next/font/google";
-import { ESLint } from "eslint";
 
 export default async function nextConfig() {
   return {
